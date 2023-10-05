@@ -1,0 +1,52 @@
+﻿@page
+@model Ibas.MenuApp.Pages.ContactInfoModel
+@{
+}
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
+    }
+
+    tr:nth-child(even) {
+        background: linear-gradient(to bottom, #f9f9f9, #e7e7e7);
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    a:hover {
+            text-decoration: underline;
+    }
+
+</style>
+<h1>Contact Info</h1>
+<div>
+    <table>
+        <tr>
+            <th>Navn</th>
+            <th>e-mail</th>
+            <th>telefonnummer</th>
+        </tr>
+        <tr>
+            <td>Karen Karensen</td>
+            <td>karen@karen.com</td>
+            <td>12345678</td>
+        </tr>
+    </table>
+</div>
